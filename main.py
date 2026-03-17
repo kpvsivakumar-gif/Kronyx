@@ -31,7 +31,7 @@ async def root():
 
 @app.get("/health")
 async def health():
-    from layers.pulse import health_check
+    from pulse import health_check
     return health_check()
 
 
