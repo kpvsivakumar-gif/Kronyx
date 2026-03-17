@@ -87,7 +87,7 @@ def send_rate_limit_warnings():
 
 def health_monitor():
     try:
-        from layers.pulse import health_check
+        from pulse import health_check
         result = health_check()
         if result.get("status") != "healthy":
             log.warning(f"HEALTH_MONITOR unhealthy: {result}")
