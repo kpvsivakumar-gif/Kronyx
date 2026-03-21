@@ -19,7 +19,7 @@ from pillar_nexus import (
     nexus_get_all_memories, nexus_get_memory_stats, nexus_bulk_remember, nexus_search_by_tag,
     flux_check_cache, flux_store_cache, flux_invalidate, flux_get_stats, flux_warm_cache,
     pulse_health_check, pulse_report_incident, pulse_resolve_incident, pulse_get_health_report,
-    pulse_get_uptime_percentage, pulse_auto_recover,
+     pulse_auto_recover,
     insight_track, insight_get_stats, insight_get_growth,
     echo_cross_check, echo_verify_factual, echo_analyze_quality
 )
